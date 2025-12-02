@@ -1,9 +1,34 @@
+/* Posters used as color bases */
+/* Gold: https: //m.media-amazon.com/images/M/MV5BYmZmZDc1Y2EtMmU2MS00NmMzLTllZmYtNjlkODFkNjZlOGE0XkEyXkFqcGc@._V1_.jpg */
+/* blue: https: //preview.redd.it/official-poster-for-now-you-see-me-now-you-dont-v0-nqonufbu0txe1.png?auto=webp&s=e05a435e6de186d214ca9664d3d2d982c1035971 */
+:root {
+    --gold-400: rgb(204, 164, 106);
+    --gold-700: rgb(139, 109, 55);
+
+    --blue-200: rgb(207, 220, 222);
+    --blue-400: rgb(158, 190, 210);
+    --blue-500: rgb(153, 195, 200);
+    --blue-600: rgb(99, 135, 175);
+    --blue-700: rgb(49, 95, 136);
+    --blue-900: rgb(40, 71, 116);
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(var(--blue-400),
+            var(--blue-200));
+    overflow-x: hidden;
+}
+
 header {
     display: flex;
     align-items: center;
     padding-bottom: 10px;
     margin-bottom: 20px;
     border-bottom: 1px solid black;
+    background-color: var(--blue-900);
+    height: 100px;
+    color: white;
 
     #logo {
         width: 120px;
@@ -17,6 +42,10 @@ header {
     }
 }
 
+h2 {
+    font-size: 24pt;
+}
+
 #info {
     display: flex;
     justify-content: center;
@@ -24,13 +53,14 @@ header {
     flex-direction: column;
 
     .info-item {
-        margin: 5px auto;
+        margin: 10px auto;
         text-align: center;
+        font-size: 16pt;
     }
 
     em {
         text-align: center;
-        font-size: 16pt;
+        font-size: 20pt;
         font-weight: bold;
         font-style: normal;
     }
@@ -66,10 +96,17 @@ header {
     li {
         display: inline;
         margin: 5px 15px;
+
+        a {
+            color: black;
+        }
     }
 }
 
 footer {
-    height: 50px;
+    height: 40px;
     width: 100vw;
+    border-top: 1px solid black;
+    padding: 9px 0 0 10px;
+    background-color: var(--gold-400);
 }
