@@ -47,22 +47,29 @@ header {
 
 #trailer-video {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #links {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 15px auto;
 
     ul {
         padding-left: none;
         list-style-type: none;
-
+        margin-top: -10px;
     }
 
     li {
         display: inline;
-        margin: 5px 10px;
+        margin: 5px 15px;
     }
+}
+
+footer {
+    height: 50px;
+    width: 100vw;
 }
