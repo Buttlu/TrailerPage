@@ -47,3 +47,8 @@ header {
         }
     }
 }
+
+#trailer-video {
+    display: flex;
+    justify-content: center;
+}
