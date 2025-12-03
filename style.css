@@ -1,6 +1,6 @@
 /* Posters used as color bases */
-/* Gold: https: //m.media-amazon.com/images/M/MV5BYmZmZDc1Y2EtMmU2MS00NmMzLTllZmYtNjlkODFkNjZlOGE0XkEyXkFqcGc@._V1_.jpg */
-/* blue: https: //preview.redd.it/official-poster-for-now-you-see-me-now-you-dont-v0-nqonufbu0txe1.png?auto=webp&s=e05a435e6de186d214ca9664d3d2d982c1035971 */
+/* Gold: https://m.media-amazon.com/images/M/MV5BYmZmZDc1Y2EtMmU2MS00NmMzLTllZmYtNjlkODFkNjZlOGE0XkEyXkFqcGc@._V1_.jpg */
+/* blue: https://preview.redd.it/official-poster-for-now-you-see-me-now-you-dont-v0-nqonufbu0txe1.png?auto=webp&s=e05a435e6de186d214ca9664d3d2d982c1035971 */
 :root {
     /* Colors insipired from tailwind, higher number => darker */
     --gold-400: rgb(204, 164, 106);
@@ -108,7 +108,7 @@ h2 {
 
     .info-item {
         margin: 10px auto;
-        text-align: center;
+        text-align: left;
         font-size: var(--normal-text-size);
 
         p {
