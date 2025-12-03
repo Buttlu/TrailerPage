@@ -29,8 +29,7 @@
 
 body {
     margin: 0;
-    background: linear-gradient(var(--blue-400),
-            var(--blue-200));
+    background-color: var(--blue-400);
     overflow-x: hidden;
 }
 
