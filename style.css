@@ -6,7 +6,8 @@
     --gold-400: rgb(204, 164, 106);
     --gold-700: rgb(139, 109, 55);
 
-    --blue-200: rgb(207, 220, 222);
+    --blue-100: rgb(207, 220, 222);
+    --blue-200: rgb(190, 210, 218);
     --blue-400: rgb(158, 190, 210);
     --blue-500: rgb(153, 195, 200);
     --blue-600: rgb(99, 135, 175);
@@ -18,6 +19,8 @@
     --title-text-size: 20pt;
     --h2-text-size: 24pt;
     --h1-text-size: 40pt;
+
+    --shadow-color: rgb(75, 75, 75);
 }
 
 * {
@@ -185,6 +188,21 @@ header {
     }
 }
 
+section {
+    width: fit-content;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--blue-300);
+    box-shadow: 5px 5px 10px var(--shadow-color);
+    transition: 0.5s;
+
+    &:hover {
+        background-color: var(--blue-200);
+        box-shadow: 10px 10px 20px var(--shadow-color);
+    }
+}
+
 h2 {
     font-size: var(--h2-text-size);
 }
@@ -199,6 +217,10 @@ h2 {
         margin: 10px auto;
         text-align: center;
         font-size: var(--normal-text-size);
+
+        p {
+            margin: 0;
+        }
     }
 
     h3 {
@@ -206,10 +228,6 @@ h2 {
         font-size: var(--title-text-size);
         font-weight: bold;
         font-style: normal;
-        margin: 0;
-    }
-
-    p {
         margin: 0;
     }
 
