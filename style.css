@@ -29,7 +29,7 @@
 
 body {
     margin: 0;
-    background-color: var(--blue-400);
+    background-color: rgb(230, 232, 235);
     overflow-x: hidden;
 }
 
