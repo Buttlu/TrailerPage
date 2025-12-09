@@ -170,7 +170,7 @@ footer {
     height: 40px;
     width: 100vw;
     border-top: 1px solid black;
-    padding: 8.75px 0 0 10px;
+    padding: 9px 0 0 10px;
     background-color: var(--gold-400);
     display: flex;
     justify-content: space-evenly;
